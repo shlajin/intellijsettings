@@ -8,6 +8,9 @@
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
@@ -34,6 +37,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="shift meta back_space" />
   </action>
+  <action id="BraceOrQuoteOut">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="CheckinProject" />
   <action id="ChooseDebugConfiguration" />
@@ -44,8 +50,20 @@
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="Console.Execute.Multiline">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.Reload" />
   <action id="Debug">
@@ -71,6 +89,9 @@
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
@@ -83,12 +104,21 @@
   <action id="EditorBackwardParagraph">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -98,6 +128,12 @@
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
   </action>
   <action id="EditorForwardParagraph">
     <keyboard-shortcut first-keystroke="ctrl period" />
@@ -114,19 +150,52 @@
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
   </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
+  <action id="EditorLookupDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorLookupUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="EditorNextWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift meta alt right" />
   </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
   <action id="EditorPageDownWithSelection" />
   <action id="EditorPageUpWithSelection" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="EditorPreviousWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift meta alt left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
@@ -142,8 +211,14 @@
   <action id="EditorScrollUpAndMove">
     <keyboard-shortcut first-keystroke="shift page_up" />
   </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorTab">
+    <keyboard-shortcut first-keystroke="tab" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
@@ -183,6 +258,9 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
+  <action id="ExpressionTypeInfo">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
@@ -190,6 +268,12 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="d" />
@@ -238,11 +322,17 @@
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta b" />
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="ctrl g" />
@@ -257,7 +347,16 @@
     <keyboard-shortcut first-keystroke="ctrl alt t" />
     <keyboard-shortcut first-keystroke="meta period" />
   </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+  </action>
   <action id="JumpToLastChange" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
@@ -276,11 +375,27 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="NextDiff" />
+  <action id="NextParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl end" />
   </action>
+  <action id="NextTemplateParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl home" />
@@ -300,6 +415,12 @@
     <keyboard-shortcut first-keystroke="shift alt f" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
@@ -315,18 +436,39 @@
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt f6" />
   </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="SaveAs">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="t" />
   </action>
+  <action id="SearchEverywhere.CompleteCommand">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="SearchEverywhere.NextTab">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="SearchEverywhere.SelectItem">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="ctrl meta g" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
