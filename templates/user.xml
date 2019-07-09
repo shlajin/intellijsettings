@@ -1,0 +1,17 @@
+<templateSet group="user">
+  <template name="ngformerrors" value="%ul&#10;  %li{'ng-repeat'=&gt;&quot;(key, errors) in form.$error track by $index&quot;}&#10;    %strong {{ key }}&#10;    %ul&#10;      %li{'ng-repeat' =&gt; &quot;e in errors&quot;}&#10;        {{ e.$name }} has an error:&#10;        %strong {{ key }}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HAML" value="true" />
+    </context>
+  </template>
+  <template name="loadingalerts" value="&lt;% if @model.isFetching(): %&gt;&#10;  &lt;%- @helper.loadingAlert() %&gt;&#10;&lt;% else if @model.hasFetchErrors(): %&gt;&#10;  &lt;%- @helper.loadingError() %&gt;&#10;&lt;% else: %&gt;&#10;&#10;&lt;% end %&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stars" value="puts '*' * 100" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>

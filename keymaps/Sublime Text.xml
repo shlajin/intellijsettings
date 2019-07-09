@@ -1,0 +1,18 @@
+<keymap version="1" name="Sublime Text" parent="TextMate">
+  <action id="ChooseRunConfiguration" />
+  <action id="Console.TableResult.Reload" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
+    <keyboard-shortcut first-keystroke="shift meta alt n" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.rails.console.ReloadSources" />
+</keymap>

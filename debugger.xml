@@ -1,0 +1,20 @@
+<application>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="javascript">
+        <configuration doNotStepIntoLibraryCode="false">
+          <custom-object-presentation />
+          <stepping-filters-enabled>false</stepping-filters-enabled>
+        </configuration>
+      </debugger>
+      <debugger id="ruby">
+        <configuration>
+          <option name="memoryLimit" value="300" />
+          <option name="timeout" value="60" />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+</application>
