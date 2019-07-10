@@ -57,6 +57,9 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute">
     <keyboard-shortcut first-keystroke="enter" />
