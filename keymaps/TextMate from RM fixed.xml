@@ -477,6 +477,9 @@
   </action>
   <action id="StepInto" />
   <action id="StepOut" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
     <keyboard-shortcut first-keystroke="shift meta j" />
@@ -495,6 +498,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence">
