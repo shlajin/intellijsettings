@@ -17,6 +17,7 @@
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="gem" type="PLAIN_TEXT" />
       <mapping ext="erbtex" type="PLAIN_TEXT" />
+      <mapping ext="d" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
     </extensionMap>
   </component>

@@ -1,4 +1,4 @@
-<keymap version="1" name="TextMate copy">
+<keymap version="1" name="TextMate copy" parent="TextMate">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
   </action>
@@ -197,6 +197,11 @@
     <keyboard-shortcut first-keystroke="ctrl alt t" />
     <keyboard-shortcut first-keystroke="meta period" />
   </action>
+  <action id="IntroduceParameter" />
+  <action id="JS.TypeScript.Compile">
+    <keyboard-shortcut first-keystroke="meta l" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="meta l" second-keystroke="meta c" />
+  </action>
   <action id="JumpToLastChange" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift meta o" />
@@ -236,6 +241,9 @@
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="shift alt f" />
     <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="meta alt p" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
@@ -292,6 +300,7 @@
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="WebOpenInAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt p" />
