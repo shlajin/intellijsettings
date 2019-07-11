@@ -33,6 +33,10 @@
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta a" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="a" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="shift meta back_space" />
@@ -59,6 +63,10 @@
   <action id="CollapseSelection" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="p" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute">
@@ -396,6 +404,9 @@
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
