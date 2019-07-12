@@ -385,6 +385,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="NewElementSamePlace">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NextDiff" />
   <action id="NextParameter">
     <keyboard-shortcut first-keystroke="tab" />
