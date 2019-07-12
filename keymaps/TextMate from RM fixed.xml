@@ -361,6 +361,9 @@
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift escape" />
   </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift meta f12" />
+  </action>
   <action id="JumpToLastChange" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
